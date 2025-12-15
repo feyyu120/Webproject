@@ -9,15 +9,19 @@
   <body>
     <div class="box">
       <h1>Login Form</h1>
-      <div class="inputHolder">
-        <input type="text" placeholder="Email" required /><br />
-        <input type="text" placeholder="Password" required /><br />
-        <h2>Don't you have an Account? <a href="signup.html">Sign Up</a></h2>
-        <br />
+      <form onsubmit="login()">
+        <div class="inputHolder">
+          <input type="text" placeholder="Email" required /><br />
+          <input type="text" placeholder="Password" required /><br />
 
-        <button onclick="login()">Login</button>
-        <script src="script.js"></script>
-      </div>
+          <h2>Don't you have an Account? <a href="signup.html">Sign Up</a></h2>
+          <br />
+
+          <button>Login</button>
+        </div>
+      </form>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
