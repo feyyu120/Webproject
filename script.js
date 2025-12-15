@@ -3,5 +3,5 @@ function regester() {
 }
 
 function login() {
-  alert("The useName couldn't be find");
+  alert("The userName couldn't be find");
 }
